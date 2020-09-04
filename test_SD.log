@@ -1,0 +1,873 @@
+* System temperature: 298.15
+* Timesteps: fine=0.1 ps, coarse=1 ps, scaling from a radius of 75A to a radius of 500A.
+* Attempting to set number of threads to 12
+* Writing trajectory every 5000 steps.
+* Convergence criteria: 0.001
+* Convergence window: 100
+* Receptor filename: ../../inputs/CH325e10.pqr
+* Loading exclusion grid "../../grids/CH325e10-ex.bxm"... done. time: 3.36638 seconds elapsed.
+* Loading electrostatic potential grid "../../grids/CH325e10_1M-es.bpm"... done. time: 26.4965 seconds elapsed.
+* Loading LJ potential energy grid "../../grids/CH325e10.2.75s-H.bpm" for atom type "H"... done. time: 7.48371 seconds elapsed.
+* Loading LJ potential energy grid "../../grids/CH325e10.2.75s-N.bpm" for atom type "N"... done. time: 10.5426 seconds elapsed.
+* Loading LJ potential energy grid "../../grids/CH325e10.2.75s-O.bpm" for atom type "O"... done. time: 11.0328 seconds elapsed.
+* Loading LJ potential energy grid "../../grids/CH325e10.2.75s-C.bpm" for atom type "C"... done. time: 10.7054 seconds elapsed.
+* Loading LJ potential energy grid "../../grids/CH325e10.2.75s-P.bpm" for atom type "P"... done. time: 7.94244 seconds elapsed.
+* Defining session: indirect contribution to interenzyme transfer
+  + Ligand filename: ../../inputs/target.pqr
+    - Loaded 1 ligand conformation
+  + Ligand replicates: 20
+  + Starting radius: 150 A
+  + Exit radius: 10000 A
+  + Binding criteria (AND + OR): 
+Group ID is currently: 0
+Made it into the while loop
+AND
+made it past if/else statement
+I stand before the mighty r assignment
+    - LAID: 348 within 7A of (177.35 79.63 74.37)
+Made it into the while loop
+)
+OR
+(
+made it past if/else statement
+I stand before the mighty r assignment
+    - LAID: 274 within 7A of (168.219 76.182 117.691)
+  (session 1 bs 0) k_on = 4.44756e+09 M⁻¹s⁻¹ Nbind=9 Ndone=9 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+#1	 Binding event at t=1.46699e+07 ps  (t_dwell=476.666ps, max=68033.5ps, total=2.27291e+06ps)
+* Step: 61750000 Walltime: 43:8:30.0789 StepRate: 0.00253633 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61755000 Walltime: 43:8:42.5871 StepRate: 0.00250162 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61760000 Walltime: 43:8:55.1709 StepRate: 0.00251673 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61765000 Walltime: 43:9:7.8784 StepRate: 0.0025415 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61770000 Walltime: 43:9:20.6371 StepRate: 0.00255174 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61775000 Walltime: 43:9:33.4999 StepRate: 0.00257254 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61780000 Walltime: 43:9:46.3552 StepRate: 0.00257106 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61785000 Walltime: 43:9:59.1934 StepRate: 0.00256761 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61790000 Walltime: 43:10:11.9474 StepRate: 0.0025508 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61795000 Walltime: 43:10:24.6673 StepRate: 0.00254396 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61800000 Walltime: 43:10:37.3846 StepRate: 0.00254345 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61805000 Walltime: 43:10:50.1786 StepRate: 0.00255879 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61810000 Walltime: 43:11:2.95672 StepRate: 0.0025556 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61815000 Walltime: 43:11:15.558 StepRate: 0.00252024 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61820000 Walltime: 43:11:28.1242 StepRate: 0.00251322 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61825000 Walltime: 43:11:40.5026 StepRate: 0.00247567 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61830000 Walltime: 43:11:52.9037 StepRate: 0.0024802 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61835000 Walltime: 43:12:5.20059 StepRate: 0.00245937 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61840000 Walltime: 43:12:17.4972 StepRate: 0.00245931 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61845000 Walltime: 43:12:29.8292 StepRate: 0.00246639 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61850000 Walltime: 43:12:42.0871 StepRate: 0.00245157 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61855000 Walltime: 43:12:54.1263 StepRate: 0.00240782 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61860000 Walltime: 43:13:6.14491 StepRate: 0.00240372 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61865000 Walltime: 43:13:18.0496 StepRate: 0.00238092 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61870000 Walltime: 43:13:29.8798 StepRate: 0.00236603 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61875000 Walltime: 43:13:41.6979 StepRate: 0.00236361 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61880000 Walltime: 43:13:53.4958 StepRate: 0.00235957 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61885000 Walltime: 43:14:5.13432 StepRate: 0.00232769 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61890000 Walltime: 43:14:16.852 StepRate: 0.00234352 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61895000 Walltime: 43:14:28.7602 StepRate: 0.00238163 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61900000 Walltime: 43:14:40.7089 StepRate: 0.00238974 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61905000 Walltime: 43:14:52.7509 StepRate: 0.00240837 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61910000 Walltime: 43:15:4.83605 StepRate: 0.00241702 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61915000 Walltime: 43:15:17.1179 StepRate: 0.00245636 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61920000 Walltime: 43:15:29.3972 StepRate: 0.00245585 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61925000 Walltime: 43:15:41.6941 StepRate: 0.00245937 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61930000 Walltime: 43:15:53.9697 StepRate: 0.00245511 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61935000 Walltime: 43:16:6.1493 StepRate: 0.0024359 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61940000 Walltime: 43:16:18.1458 StepRate: 0.00239929 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61945000 Walltime: 43:16:30.1806 StepRate: 0.00240695 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61950000 Walltime: 43:16:42.2728 StepRate: 0.00241843 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61955000 Walltime: 43:16:54.4718 StepRate: 0.00243978 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61960000 Walltime: 43:17:6.82002 StepRate: 0.00246964 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61965000 Walltime: 43:17:19.0877 StepRate: 0.00245352 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61970000 Walltime: 43:17:31.2998 StepRate: 0.0024424 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61975000 Walltime: 43:17:43.6402 StepRate: 0.00246807 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61980000 Walltime: 43:17:56.2301 StepRate: 0.00251797 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61985000 Walltime: 43:18:8.95479 StepRate: 0.00254493 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61990000 Walltime: 43:18:21.8015 StepRate: 0.00256933 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 61995000 Walltime: 43:18:34.4085 StepRate: 0.00252138 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62000000 Walltime: 43:18:46.9136 StepRate: 0.00250102 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62005000 Walltime: 43:18:59.446 StepRate: 0.00250645 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62010000 Walltime: 43:19:11.7219 StepRate: 0.00245518 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62015000 Walltime: 43:19:23.9367 StepRate: 0.00244294 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62020000 Walltime: 43:19:36.1203 StepRate: 0.00243671 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62025000 Walltime: 43:19:48.2161 StepRate: 0.00241913 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62030000 Walltime: 43:20:0.280856 StepRate: 0.00241294 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62035000 Walltime: 43:20:12.3165 StepRate: 0.00240711 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62040000 Walltime: 43:20:24.344 StepRate: 0.00240549 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62045000 Walltime: 43:20:36.3389 StepRate: 0.00239898 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62050000 Walltime: 43:20:48.2952 StepRate: 0.00239124 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62055000 Walltime: 43:21:0.204681 StepRate: 0.00238189 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62060000 Walltime: 43:21:12.0862 StepRate: 0.0023763 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62065000 Walltime: 43:21:23.9325 StepRate: 0.00236923 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62070000 Walltime: 43:21:35.6614 StepRate: 0.00234577 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62075000 Walltime: 43:21:47.3619 StepRate: 0.00234008 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62080000 Walltime: 43:21:58.9952 StepRate: 0.00232666 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62085000 Walltime: 43:22:10.7955 StepRate: 0.00236004 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62090000 Walltime: 43:22:22.615 StepRate: 0.00236388 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62095000 Walltime: 43:22:34.3347 StepRate: 0.00234393 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62100000 Walltime: 43:22:45.9686 StepRate: 0.00232676 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62105000 Walltime: 43:22:57.6629 StepRate: 0.00233886 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62110000 Walltime: 43:23:9.3503 StepRate: 0.00233746 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62115000 Walltime: 43:23:21.0692 StepRate: 0.00234377 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62120000 Walltime: 43:23:32.7648 StepRate: 0.0023391 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62125000 Walltime: 43:23:44.5281 StepRate: 0.00235265 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62130000 Walltime: 43:23:56.3375 StepRate: 0.00236186 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62135000 Walltime: 43:24:8.06507 StepRate: 0.0023455 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62140000 Walltime: 43:24:19.7356 StepRate: 0.0023341 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62145000 Walltime: 43:24:31.358 StepRate: 0.00232446 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62150000 Walltime: 43:24:43.0239 StepRate: 0.00233316 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62155000 Walltime: 43:24:54.9968 StepRate: 0.00239457 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62160000 Walltime: 43:25:7.01753 StepRate: 0.00240413 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62165000 Walltime: 43:25:19.1725 StepRate: 0.00243097 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62170000 Walltime: 43:25:31.2603 StepRate: 0.00241755 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62175000 Walltime: 43:25:43.4125 StepRate: 0.00243043 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62180000 Walltime: 43:25:55.5855 StepRate: 0.00243459 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62185000 Walltime: 43:26:7.76157 StepRate: 0.0024352 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62190000 Walltime: 43:26:19.8865 StepRate: 0.00242498 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62195000 Walltime: 43:26:31.9932 StepRate: 0.00242132 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62200000 Walltime: 43:26:44.1887 StepRate: 0.00243909 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62205000 Walltime: 43:26:56.2245 StepRate: 0.00240714 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62210000 Walltime: 43:27:8.17922 StepRate: 0.00239093 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62215000 Walltime: 43:27:20.0427 StepRate: 0.00237268 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62220000 Walltime: 43:27:32.0692 StepRate: 0.00240528 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62225000 Walltime: 43:27:44.1605 StepRate: 0.00241826 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62230000 Walltime: 43:27:56.3398 StepRate: 0.00243583 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62235000 Walltime: 43:28:8.42744 StepRate: 0.00241752 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62240000 Walltime: 43:28:20.6003 StepRate: 0.00243456 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62245000 Walltime: 43:28:32.8296 StepRate: 0.00244585 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62250000 Walltime: 43:28:45.254 StepRate: 0.00248486 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62255000 Walltime: 43:28:57.4159 StepRate: 0.00243237 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62260000 Walltime: 43:29:9.59352 StepRate: 0.00243551 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62265000 Walltime: 43:29:21.6122 StepRate: 0.00240372 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62270000 Walltime: 43:29:33.4844 StepRate: 0.00237443 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62275000 Walltime: 43:29:45.31 StepRate: 0.00236511 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62280000 Walltime: 43:29:57.0433 StepRate: 0.00234664 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62285000 Walltime: 43:30:8.89563 StepRate: 0.00237046 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62290000 Walltime: 43:30:20.826 StepRate: 0.00238606 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62295000 Walltime: 43:30:32.8368 StepRate: 0.00240216 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62300000 Walltime: 43:30:44.87 StepRate: 0.00240662 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62305000 Walltime: 43:30:56.9533 StepRate: 0.00241665 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62310000 Walltime: 43:31:8.99318 StepRate: 0.00240796 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62315000 Walltime: 43:31:21.0191 StepRate: 0.00240516 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62320000 Walltime: 43:31:33.0961 StepRate: 0.0024154 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62325000 Walltime: 43:31:45.1153 StepRate: 0.00240382 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62330000 Walltime: 43:31:57.0907 StepRate: 0.00239507 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62335000 Walltime: 43:32:9.02301 StepRate: 0.00238644 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62340000 Walltime: 43:32:21.0183 StepRate: 0.00239904 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62345000 Walltime: 43:32:33.0421 StepRate: 0.00240476 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62350000 Walltime: 43:32:45.2064 StepRate: 0.00243284 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62355000 Walltime: 43:32:57.0837 StepRate: 0.00237544 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62360000 Walltime: 43:33:8.88257 StepRate: 0.00235977 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62365000 Walltime: 43:33:20.8813 StepRate: 0.00239973 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62370000 Walltime: 43:33:32.7851 StepRate: 0.00238075 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62375000 Walltime: 43:33:44.3606 StepRate: 0.00231508 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62380000 Walltime: 43:33:56.0066 StepRate: 0.00232918 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62385000 Walltime: 43:34:7.75472 StepRate: 0.00234962 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62390000 Walltime: 43:34:19.4135 StepRate: 0.00233174 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62395000 Walltime: 43:34:31.2507 StepRate: 0.00236742 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62400000 Walltime: 43:34:43.0484 StepRate: 0.00235951 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62405000 Walltime: 43:34:54.6802 StepRate: 0.00232636 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62410000 Walltime: 43:35:6.28635 StepRate: 0.00232121 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62415000 Walltime: 43:35:17.8928 StepRate: 0.00232127 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62420000 Walltime: 43:35:29.5509 StepRate: 0.00233161 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62425000 Walltime: 43:35:41.1484 StepRate: 0.00231949 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62430000 Walltime: 43:35:52.7399 StepRate: 0.0023183 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62435000 Walltime: 43:36:4.12383 StepRate: 0.00227677 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62440000 Walltime: 43:36:15.7328 StepRate: 0.00232179 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62445000 Walltime: 43:36:27.5012 StepRate: 0.00235367 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62450000 Walltime: 43:36:39.3243 StepRate: 0.00236461 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62455000 Walltime: 43:36:51.0662 StepRate: 0.00234836 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62460000 Walltime: 43:37:2.73382 StepRate: 0.00233351 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62465000 Walltime: 43:37:14.429 StepRate: 0.00233903 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62470000 Walltime: 43:37:26.0189 StepRate: 0.00231796 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62475000 Walltime: 43:37:37.3962 StepRate: 0.00227546 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62480000 Walltime: 43:37:48.8139 StepRate: 0.00228352 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62485000 Walltime: 43:38:0.389252 StepRate: 0.00231505 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62490000 Walltime: 43:38:11.9629 StepRate: 0.00231472 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62495000 Walltime: 43:38:23.4668 StepRate: 0.00230076 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62500000 Walltime: 43:38:34.9598 StepRate: 0.0022986 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62505000 Walltime: 43:38:46.4241 StepRate: 0.00229285 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62510000 Walltime: 43:38:57.7396 StepRate: 0.00226308 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62515000 Walltime: 43:39:9.00951 StepRate: 0.00225398 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62520000 Walltime: 43:39:20.342 StepRate: 0.00226649 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62525000 Walltime: 43:39:31.7789 StepRate: 0.00228737 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62530000 Walltime: 43:39:43.1756 StepRate: 0.00227934 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62535000 Walltime: 43:39:54.5805 StepRate: 0.00228096 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62540000 Walltime: 43:40:5.90076 StepRate: 0.00226404 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62545000 Walltime: 43:40:17.336 StepRate: 0.00228704 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62550000 Walltime: 43:40:28.874 StepRate: 0.00230759 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62555000 Walltime: 43:40:40.3489 StepRate: 0.00229496 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62560000 Walltime: 43:40:51.6661 StepRate: 0.00226344 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62565000 Walltime: 43:41:3.02237 StepRate: 0.00227124 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62570000 Walltime: 43:41:14.582 StepRate: 0.00231191 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62575000 Walltime: 43:41:26.1858 StepRate: 0.00232074 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62580000 Walltime: 43:41:37.8008 StepRate: 0.002323 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62585000 Walltime: 43:41:49.3008 StepRate: 0.00229999 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62590000 Walltime: 43:42:0.800329 StepRate: 0.0022999 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62595000 Walltime: 43:42:12.3771 StepRate: 0.00231534 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62600000 Walltime: 43:42:24.0469 StepRate: 0.00233395 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62605000 Walltime: 43:42:35.7236 StepRate: 0.00233534 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62610000 Walltime: 43:42:47.4287 StepRate: 0.002341 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62615000 Walltime: 43:42:59.2228 StepRate: 0.0023588 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62620000 Walltime: 43:43:11.0974 StepRate: 0.00237492 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62625000 Walltime: 43:43:23.0107 StepRate: 0.00238265 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62630000 Walltime: 43:43:34.887 StepRate: 0.00237524 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62635000 Walltime: 43:43:46.7584 StepRate: 0.00237428 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62640000 Walltime: 43:43:58.4796 StepRate: 0.00234422 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62645000 Walltime: 43:44:10.163 StepRate: 0.00233667 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62650000 Walltime: 43:44:21.8339 StepRate: 0.00233417 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62655000 Walltime: 43:44:33.443 StepRate: 0.00232181 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62660000 Walltime: 43:44:45.1125 StepRate: 0.00233389 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62665000 Walltime: 43:44:56.8901 StepRate: 0.00235551 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62670000 Walltime: 43:45:8.51674 StepRate: 0.00232531 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62675000 Walltime: 43:45:19.9551 StepRate: 0.00228766 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62680000 Walltime: 43:45:31.4245 StepRate: 0.00229386 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62685000 Walltime: 43:45:42.758 StepRate: 0.00226669 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62690000 Walltime: 43:45:54.2352 StepRate: 0.00229543 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62695000 Walltime: 43:46:5.60071 StepRate: 0.00227309 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62700000 Walltime: 43:46:16.8882 StepRate: 0.00225748 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62705000 Walltime: 43:46:28.1788 StepRate: 0.00225811 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62710000 Walltime: 43:46:39.5796 StepRate: 0.00228016 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62715000 Walltime: 43:46:51.0989 StepRate: 0.00230384 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62720000 Walltime: 43:47:2.74188 StepRate: 0.00232858 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62725000 Walltime: 43:47:14.427 StepRate: 0.00233701 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62730000 Walltime: 43:47:25.9929 StepRate: 0.00231317 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62735000 Walltime: 43:47:37.4604 StepRate: 0.00229347 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62740000 Walltime: 43:47:49.1171 StepRate: 0.00233132 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62745000 Walltime: 43:48:0.529762 StepRate: 0.00228253 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62750000 Walltime: 43:48:11.7926 StepRate: 0.00225255 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62755000 Walltime: 43:48:23.0529 StepRate: 0.00225204 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62760000 Walltime: 43:48:34.1883 StepRate: 0.00222708 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62765000 Walltime: 43:48:45.4643 StepRate: 0.00225517 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62770000 Walltime: 43:48:56.8874 StepRate: 0.00228461 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62775000 Walltime: 43:49:8.44256 StepRate: 0.00231102 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62780000 Walltime: 43:49:20.2708 StepRate: 0.00236564 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62785000 Walltime: 43:49:32.222 StepRate: 0.00239023 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62790000 Walltime: 43:49:43.9587 StepRate: 0.00234732 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62795000 Walltime: 43:49:55.4947 StepRate: 0.00230718 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62800000 Walltime: 43:50:6.8853 StepRate: 0.00227812 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62805000 Walltime: 43:50:18.2259 StepRate: 0.0022681 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62810000 Walltime: 43:50:29.8492 StepRate: 0.00232464 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62815000 Walltime: 43:50:41.6084 StepRate: 0.00235184 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62820000 Walltime: 43:50:53.504 StepRate: 0.0023791 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62825000 Walltime: 43:51:5.24455 StepRate: 0.00234811 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62830000 Walltime: 43:51:16.8157 StepRate: 0.00231422 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62835000 Walltime: 43:51:28.5058 StepRate: 0.00233801 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62840000 Walltime: 43:51:40.3413 StepRate: 0.00236707 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62845000 Walltime: 43:51:52.2312 StepRate: 0.00237798 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62850000 Walltime: 43:52:4.27487 StepRate: 0.00240871 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62855000 Walltime: 43:52:16.3502 StepRate: 0.00241506 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62860000 Walltime: 43:52:28.2411 StepRate: 0.00237816 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62865000 Walltime: 43:52:40.0286 StepRate: 0.00235748 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62870000 Walltime: 43:52:51.8261 StepRate: 0.00235949 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62875000 Walltime: 43:53:3.70508 StepRate: 0.00237578 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62880000 Walltime: 43:53:15.4397 StepRate: 0.00234691 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62885000 Walltime: 43:53:27.1357 StepRate: 0.0023392 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62890000 Walltime: 43:53:38.8001 StepRate: 0.00233285 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62895000 Walltime: 43:53:50.7069 StepRate: 0.00238134 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62900000 Walltime: 43:54:2.53125 StepRate: 0.00236487 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62905000 Walltime: 43:54:14.6395 StepRate: 0.00242163 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62910000 Walltime: 43:54:26.4857 StepRate: 0.00236923 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62915000 Walltime: 43:54:38.3397 StepRate: 0.00237079 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62920000 Walltime: 43:54:50.2652 StepRate: 0.00238509 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62925000 Walltime: 43:55:2.34231 StepRate: 0.0024154 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62930000 Walltime: 43:55:14.2871 StepRate: 0.00238894 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62935000 Walltime: 43:55:26.0111 StepRate: 0.00234478 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62940000 Walltime: 43:55:37.5478 StepRate: 0.00230734 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62945000 Walltime: 43:55:49.1036 StepRate: 0.00231114 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62950000 Walltime: 43:56:0.610179 StepRate: 0.0023013 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62955000 Walltime: 43:56:12.4784 StepRate: 0.00237363 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62960000 Walltime: 43:56:24.336 StepRate: 0.00237149 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62965000 Walltime: 43:56:36.1373 StepRate: 0.00236025 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62970000 Walltime: 43:56:48.0617 StepRate: 0.00238486 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62975000 Walltime: 43:57:0.00478 StepRate: 0.00238861 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62980000 Walltime: 43:57:11.9615 StepRate: 0.00239133 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62985000 Walltime: 43:57:23.8219 StepRate: 0.00237208 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62990000 Walltime: 43:57:35.3865 StepRate: 0.0023129 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 62995000 Walltime: 43:57:46.7942 StepRate: 0.00228154 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63000000 Walltime: 43:57:57.9889 StepRate: 0.00223892 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63005000 Walltime: 43:58:9.15362 StepRate: 0.00223293 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63010000 Walltime: 43:58:20.2246 StepRate: 0.00221418 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63015000 Walltime: 43:58:31.2972 StepRate: 0.00221451 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63020000 Walltime: 43:58:42.3204 StepRate: 0.00220462 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63025000 Walltime: 43:58:53.4417 StepRate: 0.00222426 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63030000 Walltime: 43:59:4.71626 StepRate: 0.0022549 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63035000 Walltime: 43:59:16.032 StepRate: 0.00226313 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63040000 Walltime: 43:59:27.3016 StepRate: 0.00225392 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63045000 Walltime: 43:59:38.6398 StepRate: 0.00226762 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63050000 Walltime: 43:59:49.9866 StepRate: 0.00226934 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63055000 Walltime: 44:1.38561 StepRate: 0.0022798 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63060000 Walltime: 44:12.8023 StepRate: 0.00228333 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63065000 Walltime: 44:24.3632 StepRate: 0.00231216 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63070000 Walltime: 44:36.0321 StepRate: 0.00233377 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63075000 Walltime: 44:47.6028 StepRate: 0.00231412 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63080000 Walltime: 44:59.2675 StepRate: 0.00233293 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63085000 Walltime: 44:1:10.72 StepRate: 0.00229049 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63090000 Walltime: 44:1:22.1688 StepRate: 0.00228975 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63095000 Walltime: 44:1:33.6065 StepRate: 0.00228753 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63100000 Walltime: 44:1:45.002 StepRate: 0.00227907 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63105000 Walltime: 44:1:56.4264 StepRate: 0.00228487 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63110000 Walltime: 44:2:7.77904 StepRate: 0.00227051 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63115000 Walltime: 44:2:19.0511 StepRate: 0.0022544 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63120000 Walltime: 44:2:30.2511 StepRate: 0.00223997 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63125000 Walltime: 44:2:41.4759 StepRate: 0.00224495 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63130000 Walltime: 44:2:52.6547 StepRate: 0.00223575 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63135000 Walltime: 44:3:4.0488 StepRate: 0.00227881 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63140000 Walltime: 44:3:15.7054 StepRate: 0.0023313 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63145000 Walltime: 44:3:27.5593 StepRate: 0.00237078 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63150000 Walltime: 44:3:39.5188 StepRate: 0.00239188 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63155000 Walltime: 44:3:51.3261 StepRate: 0.00236144 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63160000 Walltime: 44:4:3.0778 StepRate: 0.00235034 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63165000 Walltime: 44:4:14.9857 StepRate: 0.00238158 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63170000 Walltime: 44:4:27.0504 StepRate: 0.00241291 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63175000 Walltime: 44:4:39.1381 StepRate: 0.00241754 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63180000 Walltime: 44:4:51.2167 StepRate: 0.00241571 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63185000 Walltime: 44:5:3.21684 StepRate: 0.00240002 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63190000 Walltime: 44:5:15.1814 StepRate: 0.0023929 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63195000 Walltime: 44:5:27.0743 StepRate: 0.00237856 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63200000 Walltime: 44:5:39.0405 StepRate: 0.00239324 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63205000 Walltime: 44:5:51.1211 StepRate: 0.00241612 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63210000 Walltime: 44:6:3.17691 StepRate: 0.00241114 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63215000 Walltime: 44:6:15.1369 StepRate: 0.00239198 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63220000 Walltime: 44:6:27.0699 StepRate: 0.0023866 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63225000 Walltime: 44:6:39.2428 StepRate: 0.00243456 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63230000 Walltime: 44:6:51.3836 StepRate: 0.00242815 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63235000 Walltime: 44:7:3.55691 StepRate: 0.00243466 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63240000 Walltime: 44:7:15.6587 StepRate: 0.00242035 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63245000 Walltime: 44:7:27.9043 StepRate: 0.0024491 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63250000 Walltime: 44:7:40.3463 StepRate: 0.00248839 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63255000 Walltime: 44:7:52.7428 StepRate: 0.00247929 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63260000 Walltime: 44:8:5.06729 StepRate: 0.00246489 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63265000 Walltime: 44:8:17.3878 StepRate: 0.00246409 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63270000 Walltime: 44:8:29.4164 StepRate: 0.0024057 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63275000 Walltime: 44:8:41.3564 StepRate: 0.002388 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63280000 Walltime: 44:8:52.9904 StepRate: 0.00232679 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63285000 Walltime: 44:9:4.56126 StepRate: 0.00231416 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63290000 Walltime: 44:9:16.2277 StepRate: 0.00233328 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63295000 Walltime: 44:9:27.7831 StepRate: 0.00231107 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63300000 Walltime: 44:9:39.2093 StepRate: 0.00228522 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63305000 Walltime: 44:9:50.6339 StepRate: 0.00228491 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63310000 Walltime: 44:10:2.09452 StepRate: 0.00229211 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63315000 Walltime: 44:10:13.7215 StepRate: 0.00232538 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63320000 Walltime: 44:10:25.262 StepRate: 0.0023081 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63325000 Walltime: 44:10:36.7742 StepRate: 0.00230243 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63330000 Walltime: 44:10:48.3869 StepRate: 0.00232252 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63335000 Walltime: 44:11:0.190422 StepRate: 0.0023607 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63340000 Walltime: 44:11:12.014 StepRate: 0.00236471 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63345000 Walltime: 44:11:23.907 StepRate: 0.00237858 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63350000 Walltime: 44:11:35.9347 StepRate: 0.00240553 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63355000 Walltime: 44:11:48.2282 StepRate: 0.00245868 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63360000 Walltime: 44:12:0.773539 StepRate: 0.00250907 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63365000 Walltime: 44:12:13.2626 StepRate: 0.0024978 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63370000 Walltime: 44:12:25.5872 StepRate: 0.0024649 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63375000 Walltime: 44:12:37.9911 StepRate: 0.00248079 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63380000 Walltime: 44:12:50.4211 StepRate: 0.00248598 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63385000 Walltime: 44:13:2.90967 StepRate: 0.00249771 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63390000 Walltime: 44:13:15.5311 StepRate: 0.00252428 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63395000 Walltime: 44:13:28.1301 StepRate: 0.00251978 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63400000 Walltime: 44:13:40.562 StepRate: 0.00248637 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63405000 Walltime: 44:13:52.8444 StepRate: 0.00245647 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63410000 Walltime: 44:14:4.87174 StepRate: 0.00240546 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63415000 Walltime: 44:14:17.1971 StepRate: 0.00246506 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63420000 Walltime: 44:14:29.7206 StepRate: 0.00250469 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63425000 Walltime: 44:14:41.9803 StepRate: 0.00245193 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63430000 Walltime: 44:14:54.2943 StepRate: 0.00246279 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63435000 Walltime: 44:15:6.84174 StepRate: 0.00250948 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63440000 Walltime: 44:15:18.9294 StepRate: 0.00241753 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63445000 Walltime: 44:15:30.8546 StepRate: 0.00238503 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63450000 Walltime: 44:15:42.8341 StepRate: 0.0023959 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63455000 Walltime: 44:15:54.8806 StepRate: 0.00240928 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63460000 Walltime: 44:16:7.11452 StepRate: 0.00244678 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63465000 Walltime: 44:16:19.2423 StepRate: 0.00242554 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63470000 Walltime: 44:16:31.356 StepRate: 0.00242274 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63475000 Walltime: 44:16:43.3282 StepRate: 0.00239443 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63480000 Walltime: 44:16:55.2413 StepRate: 0.00238261 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63485000 Walltime: 44:17:7.19744 StepRate: 0.00239121 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63490000 Walltime: 44:17:19.1284 StepRate: 0.00238617 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63495000 Walltime: 44:17:30.8511 StepRate: 0.00234454 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63500000 Walltime: 44:17:42.6268 StepRate: 0.00235513 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63505000 Walltime: 44:17:54.3757 StepRate: 0.00234977 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63510000 Walltime: 44:18:5.96745 StepRate: 0.00231834 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63515000 Walltime: 44:18:17.6273 StepRate: 0.00233196 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63520000 Walltime: 44:18:29.3317 StepRate: 0.00234087 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63525000 Walltime: 44:18:41.1252 StepRate: 0.00235869 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63530000 Walltime: 44:18:52.9728 StepRate: 0.00236951 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63535000 Walltime: 44:19:4.90806 StepRate: 0.00238703 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63540000 Walltime: 44:19:16.7531 StepRate: 0.00236898 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63545000 Walltime: 44:19:28.5831 StepRate: 0.00236601 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63550000 Walltime: 44:19:40.3288 StepRate: 0.00234912 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63555000 Walltime: 44:19:52.2658 StepRate: 0.00238738 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63560000 Walltime: 44:20:4.26068 StepRate: 0.00239897 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63565000 Walltime: 44:20:16.4452 StepRate: 0.00243689 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63570000 Walltime: 44:20:28.8234 StepRate: 0.00247562 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63575000 Walltime: 44:20:41.1667 StepRate: 0.00246864 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63580000 Walltime: 44:20:53.4687 StepRate: 0.0024604 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63585000 Walltime: 44:21:5.88341 StepRate: 0.00248292 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63590000 Walltime: 44:21:18.4335 StepRate: 0.00251001 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63595000 Walltime: 44:21:30.9938 StepRate: 0.00251205 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63600000 Walltime: 44:21:43.5364 StepRate: 0.0025085 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63605000 Walltime: 44:21:55.9925 StepRate: 0.00249121 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63610000 Walltime: 44:22:8.57007 StepRate: 0.00251551 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63615000 Walltime: 44:22:21.1209 StepRate: 0.00251015 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63620000 Walltime: 44:22:33.7561 StepRate: 0.00252703 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63625000 Walltime: 44:22:46.5158 StepRate: 0.00255193 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63630000 Walltime: 44:22:59.2375 StepRate: 0.00254432 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63635000 Walltime: 44:23:11.9764 StepRate: 0.00254776 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63640000 Walltime: 44:23:24.712 StepRate: 0.00254712 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63645000 Walltime: 44:23:37.3874 StepRate: 0.00253507 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63650000 Walltime: 44:23:50.0851 StepRate: 0.00253951 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63655000 Walltime: 44:24:2.68827 StepRate: 0.00252062 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63660000 Walltime: 44:24:15.247 StepRate: 0.00251174 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63665000 Walltime: 44:24:27.75 StepRate: 0.00250057 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63670000 Walltime: 44:24:40.1394 StepRate: 0.00247787 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63675000 Walltime: 44:24:52.4362 StepRate: 0.00245935 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63680000 Walltime: 44:25:4.74538 StepRate: 0.00246182 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63685000 Walltime: 44:25:17.1318 StepRate: 0.00247727 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63690000 Walltime: 44:25:29.5054 StepRate: 0.0024747 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63695000 Walltime: 44:25:41.7672 StepRate: 0.00245236 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63700000 Walltime: 44:25:54.022 StepRate: 0.00245094 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63705000 Walltime: 44:26:6.32501 StepRate: 0.00246058 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63710000 Walltime: 44:26:18.6583 StepRate: 0.00246664 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63715000 Walltime: 44:26:30.9661 StepRate: 0.00246156 s/step
+   (session 1 bs 0) k_on = 4.1785e+09 M⁻¹s⁻¹ Nbind=10 Ndone=10 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+#1	 Binding event at t=1.55607e+07 ps  (t_dwell=3501.58ps, max=186117ps, total=5.77303e+06ps)
+* Step: 63720000 Walltime: 44:26:43.1782 StepRate: 0.0024424 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63725000 Walltime: 44:26:55.3197 StepRate: 0.00242828 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63730000 Walltime: 44:27:7.5211 StepRate: 0.00244026 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63735000 Walltime: 44:27:19.7867 StepRate: 0.00245311 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63740000 Walltime: 44:27:32.1071 StepRate: 0.00246407 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63745000 Walltime: 44:27:44.354 StepRate: 0.00244936 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63750000 Walltime: 44:27:56.662 StepRate: 0.00246158 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63755000 Walltime: 44:28:9.06161 StepRate: 0.00247991 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63760000 Walltime: 44:28:21.5699 StepRate: 0.00250164 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63765000 Walltime: 44:28:34.1014 StepRate: 0.0025063 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63770000 Walltime: 44:28:46.6041 StepRate: 0.00250052 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63775000 Walltime: 44:28:59.0764 StepRate: 0.00249444 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63780000 Walltime: 44:29:11.3929 StepRate: 0.0024633 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63785000 Walltime: 44:29:23.7667 StepRate: 0.00247473 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63790000 Walltime: 44:29:36.0703 StepRate: 0.00246072 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63795000 Walltime: 44:29:48.2306 StepRate: 0.00243203 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63800000 Walltime: 44:30:0.422733 StepRate: 0.00243842 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63805000 Walltime: 44:30:12.6411 StepRate: 0.00244366 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63810000 Walltime: 44:30:24.7888 StepRate: 0.00242954 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63815000 Walltime: 44:30:36.7366 StepRate: 0.00238954 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63820000 Walltime: 44:30:48.4932 StepRate: 0.00235131 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63825000 Walltime: 44:31:0.084086 StepRate: 0.00231817 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+* Step: 63830000 Walltime: 44:31:11.4574 StepRate: 0.00227465 s/step
+   (session 1 bs 0) k_on = 3.94935e+09 M⁻¹s⁻¹ Nbind=11 Ndone=11 β=1 conv=-1 kd(b)=1.02105e+10 b=150 q=10000 Davg=0.00899489 
+#1	 Binding event at t=1.93663e+07 ps  (t_dwell=1189.24ps, max=47981.5ps, total=1.0242e+06ps)
+

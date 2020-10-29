@@ -1,3 +1,0 @@
-Use: "g++ code.cc -o code" to compile source code file "code.cc" and output executable file "code".
-
-

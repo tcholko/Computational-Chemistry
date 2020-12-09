@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
      dcd.seekg(long(headlen) + framelen*i*freq + 44);
      dcd.read((char*)&cz, sizeof(double));
      dcd.seekg(long(headlen) + framelen*i*freq + 56);
-     dcd.read((char*)coords, sizeof(float)); // What is coords here, could it just as well be some other float var? Try
+     dcd.read((char*)coords, sizeof(float)); 
 
      for (int j=0;j<3;j++) {
        for (int k=0;k<natoms;k++) {
@@ -113,26 +113,6 @@ int main(int argc, char* argv[]) {
    sumd2 /= nassoc;
    sd = sqrt(sumd2);   
   //cout << "SD residence time: " << sd/1e3 << " ns\n";
-
-/// Record and average only over long adosorptions, not just touches ///
-/*  int nlong = 0;
-  float longevents[nassoc];
-
-  for (int i=0; i<nassoc; i++) { 
-    if (eventrestime[i] > 1e3) { longevents[nlong] = eventrestime[i]; nlong++; } // if adsorbed longer than 1 ns, record it
-   }
-
-  double avg_2 = ttot/nassoc;
-  double sumd2_2, sd_2;
-  for (int i=0; i<nlong; i++) {
-     sumd2_2 += pow(avg_2 - longevents[i], 2);
-     cout << "Long event " << i+1 << " res time: " << longevents[i]/1e6 <<" us\n";
-    }
-  sumd2_2 /= nlong;
-  sd_2 = sqrt(sumd2_2);
-  cout << nlong << " long adsorption events found\n";
-  cout << "SD residence time: " << sd_2/1e6 << " us\n";
-*/
 
 /// Throw out outliers
   int normal = 0, outlier = 0;

@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
      dcd.read((char*)&cz, sizeof(double));
 
      dcd.seekg(long(headlen) + framelen*i + 56);
-     dcd.read((char*)coords, sizeof(float)); // What is coords here, could it just as well be some other float var? Try
+     dcd.read((char*)coords, sizeof(float)); 
 
      for (int j=0;j<3;j++) {
        for (int k=0;k<natoms;k++) {
@@ -368,16 +368,6 @@ int main(int argc, char* argv[]) {
    for (int i=0; i<30; i++) { binavg[i] = bins[i]/analyzed;
      // cout << ">> Bin " << i+1 << " Total: " << totbin[i] << " | Average: " << binavg << endl;
      }  
-
-   // float frame_totbin[analyzed][30];
-
-   // for (int i=1; i<analyzed; i++) {
-     // for (int j=0; j<30; j++) { 
-      // frame_totbin[i][j] = frame_accum_bin[i][j] - frame_accum_bin[i-1][j]; 
-      // frame_totbin[0][j] = frame_accum_bin[0][j]; // In frame 1, frame tot = frame accumulation since its first frame
-     // cout << "Frame " << i << " bin " << j << " has " << frame_totbin[i-1][j+1] << " mols\n"; 
-    // }
-   // }
  
     for (int i=0; i<30; i++) {
      float sum_d2=0;

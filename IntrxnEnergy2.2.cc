@@ -170,7 +170,6 @@ int main(int argc, char* argv[]) {
            double sigmaij = ((sigma[lai]+recsigma[rai]) / 2); //sigma is internuclear dist of atoms i & j at which LJ potential = 0
            Evdw = scaleLJ * 4 * epsij * (pow((sigmaij/dist), 12) - pow((sigmaij/dist), 6));
            Evdwtot += Evdw;
-           //cout <<"lai/rai="<<lai<<"/"<<rai<<". epsij="<<epsij<<" sigij="<<sigmaij<< " distij="<<dist<< "\nrecelem: "<<recelement[rai]<<" ligelem "<<element[lai]<<endl<< "evdw and evdwtot = " << Evdw << " and " << Evdwtot << endl;
           }   
          }
         }

@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
    if (end > nframe) { end = nframe; }
 
    double cx, cy, cz; // Unit cell dimensions
-   float coords[natom][3][nframe/ifreq];  //**********Change back to just nframe if this doesnt work*********!!!!!!!!!!
+   float coords[natom][3][nframe/ifreq];  
    // Coordinates stored as: frame 1 -> all x, all y, all z (ordered by atom index #), frame 2 -> all x, all y, all z, frame 3... etc
    cout << "** Reading ligand coordinates...\n";
     for (int i=0;i<nframe/ifreq;i++) {
@@ -60,7 +60,7 @@ int main(int argc, char* argv[]) {
        dcd.seekg(long(headlen) + framelen*i + 44);
        dcd.read((char*)&cz, sizeof(double));
        dcd.seekg(long(headlen) + framelen*i + 56);
-       dcd.read((char*)coords, sizeof(float)); // What is coords here, could it just as well be some other float var? Try
+       dcd.read((char*)coords, sizeof(float)); 
         for (int j=0;j<3;j++) {
          for (int k=0;k<natom;k++) {
          dcd.read((char*)&coords[k][j][i], sizeof(float));
@@ -157,7 +157,7 @@ int main(int argc, char* argv[]) {
    cout << "iconc is " << iconc << endl;
    //double ions = 1. * iconc * 1e-27 * 6.02e23; // Default ionic conc= 0.002M, end converts to ions/A^3
     float Debye_length = sqrt( (78.5 * 8.85e-12 * 1.38e-23 * 298) / (1*1*2* 1.6e-19*1.6e-19 * iconc*1000 *6.02e23) ); 
-    //cout >> "top= " >>debtop >> " bot = " >> debbot >> endl;
+  
     Debye_length *= 1e10; // Convert it into Angstroms
     float scaleLJ = atof(sscaleLJ.c_str());
     int count = 0;
@@ -169,7 +169,7 @@ int main(int argc, char* argv[]) {
    cout << ">> Checking replicate " << rep+1 << " for adsorbed frames\n";
     for (int frame = beg; frame < end; frame+=freq) {
     float mindist = 100000, mincheck_dist = 100000;
-    /// Put everything after here in an if stmt where if lowest atom < 5 A from surface, else break and go next frame ///
+  
      for (int b=0; b<nligatom; b++) { 
        float check_dist = coords[b+(rep*nligatom)][2][frame] - 15.4;
        if (check_dist < mincheck_dist) { mincheck_dist = check_dist; }
@@ -191,7 +191,7 @@ int main(int argc, char* argv[]) {
           } 
         if (dist <= lj_cut) {
            double epsij = sqrt(epsilon[lai]*recepsilon[rai]);
-           double sigmaij = ((sigma[lai]+recsigma[rai]) / 2); //sigma is internuclear dist of atoms i & j at which LJ potential = 0
+           double sigmaij = ((sigma[lai]+recsigma[rai]) / 2); 
            Evdw = scaleLJ * 4 * epsij * (pow((sigmaij/dist), 12) - pow((sigmaij/dist), 6));
            Evdwtot += Evdw;
           }   

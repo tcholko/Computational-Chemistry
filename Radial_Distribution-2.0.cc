@@ -95,7 +95,7 @@ int main(int argc, char* argv[]) {
      dcd.read((char*)&cz, sizeof(double));
 
      dcd.seekg(long(headlen) + framelen*i + 56);
-     dcd.read((char*)coords, sizeof(float)); // What is coords here, could it just as well be some other float var? Try
+     dcd.read((char*)coords, sizeof(float)); 
 
      for (int j=0;j<3;j++) {
        for (int k=0;k<natoms;k++) {
